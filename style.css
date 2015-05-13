@@ -1,14 +1,11 @@
 body {
 	background-color: black;
-	color:pink;
-	font-size:16px;
-	font-family: arial, halvetica, sans-serif;
 }
 a {	
 	color:blue;
 }
 h1, h2, p {
-	color: green;
+	color: pink;
 	font-size:16px;
 	font-family: arial, halvetica, sans-serif;
 }
