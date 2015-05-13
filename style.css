@@ -1,5 +1,7 @@
 body {
-	background-color: black;
+	background-color: grey;
+	font-size: 16px;
+	font-family: arial, garamond; sans-serif;
 }
 a {	
 	color:blue;
@@ -7,5 +9,5 @@ a {
 h1, h2, p {
 	color: pink;
 	font-size:16px;
-	font-family: arial, halvetica, sans-serif;
+	font-family: arial, garamond, sans-serif;
 }
