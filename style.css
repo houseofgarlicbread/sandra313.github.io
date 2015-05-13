@@ -1,13 +1,13 @@
 body {
-	background-color: beige;
-	font-size: 16px;
+	background-color:beige;
+	font-size: 20px;
 	font-family: arial, garamond; sans-serif;
 }
 a {	
-	color:blue;
+	color:tan;
 }
-h1, h2, p {
-	color: olive;
+p {
+	color:olive;
 	font-size:16px;
 	font-family: arial, georgia, sans-serif;
 }
