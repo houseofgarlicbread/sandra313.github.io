@@ -1,9 +1,14 @@
 body {
-	background-color:olive;
-	color:crimson;
-	font-size:16px;
-	font-family:arial,garamond;sans-serif;
+	background-color:beige;
+ 	color:crimson;
+ 	font-size:16px;
+ 	font-family:arial,garamond;sans-serif;
 }
-a {	
-	color:mulberry; 
+ a {	
+ 	color:mulberry; 
+ }
+p {
+	color:olive;
+	font-size:16px;
+	font-family: arial, garamond, sans-serif;
 }
