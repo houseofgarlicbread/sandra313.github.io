@@ -2,7 +2,7 @@ body {
 	background-color:beige;
 	color:brown; 
 	font-size:16px;
-	font-family:arial,garamond;sans-serif,center;
+	font-family:arial,garamond;sans-serif,:center-aligned:;
 }
 a {	
 	color:mulberry; 
