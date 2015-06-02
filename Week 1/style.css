@@ -11,8 +11,16 @@ p {
 	color:olive;
 	font-size:16px;
 	font-family: arial, garamond, sans-serif;
-<<<<<<< HEAD
 }
-=======
+
+h2 {
+	font-size: 18px;
 }
->>>>>>> c660e65b785bf2f2a674a595d4d2c46e829b1a87
+footer {
+	position: relative;
+	bottom: 10px;
+	right: 10px;
+}
+.container {
+	text-align: center;
+}
