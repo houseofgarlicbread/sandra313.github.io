@@ -7,14 +7,28 @@ body {
  a {	
  	color:mulberry; 
  }
+
+ img {
+ 	height: 150px;
+ 	width: 200px;
+ }
 p {
 	color:olive;
 	font-size:16px;
 	font-family: arial, garamond, sans-serif;
 }
-
+h1{
+	font-size: 25px;
+	font-weight: bolder;
+}
 h2 {
 	font-size: 18px;
+	font-style: italic;
+}
+.styles li{
+	border: 1px solid purple;
+	padding: 3px;
+	display: inline;
 }
 footer {
 	position: relative;
@@ -23,4 +37,27 @@ footer {
 }
 .container {
 	text-align: center;
+}
+.sub-title{
+	color: #FF9500;
+}
+.read-me{
+	margin: 30px;
+	margin-bottom: 40px;
+}
+.read-me a{
+	color:#FF9500;
+}
+.contact-me{
+	border: 1px solid purple;
+	padding: 1px;
+	width: 200px;
+	margin: 0 auto;
+}
+li{
+	list-style-type: none;
+}
+#slogan{
+	font-style: italic;
+	color:#3A6BDB; /* This is blue. */
 }
