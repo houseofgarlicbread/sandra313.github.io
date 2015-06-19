@@ -1,8 +1,8 @@
 body {
-	background-color:beige;
- 	color:crimson;
+	background-color:#FABE4D; /* This is beige/tan/light orange. */
+ 	color:#DE133C; /* This is crimson. */
  	font-size:16px;
- 	font-family:arial,garamond;sans-serif;
+ 	font-family: 'Matel Sans', sans-serif;
 }
  a {	
  	color:mulberry; 
@@ -13,9 +13,9 @@ body {
  	width: 200px;
  }
 p {
-	color:olive;
+	color: #F6F6DD; /* This is olive. */
 	font-size:16px;
-	font-family: arial, garamond, sans-serif;
+	font-family: avenir, garamond, sans-serif;
 }
 h1{
 	font-size: 25px;
@@ -26,7 +26,8 @@ h2 {
 	font-style: italic;
 }
 .styles li{
-	border: 1px solid purple;
+	border: 1px;
+	color: #810280; /* This is purple. */
 	padding: 3px;
 	display: inline;
 }
@@ -39,7 +40,7 @@ footer {
 	text-align: center;
 }
 .sub-title{
-	color: #FF9500;
+	color: #810280; /* This is purple. */ 
 }
 .read-me{
 	margin: 30px;
@@ -49,13 +50,15 @@ footer {
 	color:#FF9500;
 }
 .contact-me{
-	border: 1px solid purple;
+	border: 1px;
+	color: #8335FF; /* This is purple. */ 
 	padding: 1px;
 	width: 200px;
 	margin: 0 auto;
 }
 li{
 	list-style-type: none;
+	font-family" 'Raleway', sans-serif; 
 }
 #slogan{
 	font-style: italic;
