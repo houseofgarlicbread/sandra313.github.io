@@ -4,11 +4,12 @@ body {
  	font-size:16px;
  	font-family: helvetica, sans-serif;
 }
- a {	
+a {	
  	color:#000; /* This is black. */ 
+ 	text-decoration: none;
  }
 
- img {
+img {
  	height: 250px;
  	width: 400px;
  }
@@ -31,25 +32,40 @@ li:last-child{
 img{
 	height: 200px;
 	width: 300px;
+	border: 1px solid black;
 }
 .Wordmark{
 	height: 250px;
 	width: 500px;
 	margin: 0 auto;
 	display: block;
+	border: none;
 }
 footer{
 	clear: both;
 	float: left;
 }
+.footer li{
+	width: 30%;
+}
+.footer p{
+	text-align: center;
+}
 .Contact-Information{
 	clear: both;
+	width: 100vw;
 }
-.clearfix{
-	clear:both;
+.Contact-Information li{
+	width: 30%;
+	text-align: center;
+}
+nav{
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
 nav a{
-	margin: 20px;
+	margin: 40px 200px;
 }
 .photobooth ~ p{
 	float: left;
@@ -64,7 +80,7 @@ nav a{
 }
 article{
 	clear: both;
-	margin: 200px 10px 200px 10px;
+	margin-bottom: 275px;
 }
 .brunch ~ p{
 	float: left;
@@ -79,4 +95,5 @@ article{
 }
 h2{
 	text-align: center;
+	margin-top: 0;
 }
