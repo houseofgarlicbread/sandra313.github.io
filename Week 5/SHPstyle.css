@@ -1,0 +1,82 @@
+body {
+	background-color:#FFF; /* This is white. */
+ 	color:#000; /* This is black. */
+ 	font-size:16px;
+ 	font-family: helvetica, sans-serif;
+}
+ a {	
+ 	color:#000; /* This is black. */ 
+ }
+
+ img {
+ 	height: 250px;
+ 	width: 400px;
+ }
+p {
+	color: #000; /* This is black. */ 
+	font-size:16px;
+	font-family: times, sans-serif;
+	clear: both;
+}
+li{
+	list-style-type: none; /* This removes the bulletion points. */ 
+	float: left; 
+	height: 250px;
+	width: 30%;
+	margin-bottom: 20px;
+}
+li:last-child{
+	clear: right;
+}
+img{
+	height: 200px;
+	width: 300px;
+}
+.Wordmark{
+	height: 250px;
+	width: 500px;
+	margin: 0 auto;
+	display: block;
+}
+footer{
+	clear: both;
+	float: left;
+}
+.Contact-Information{
+	clear: both;
+}
+.clearfix{
+	clear:both;
+}
+nav a{
+	margin: 20px;
+}
+.photobooth ~ p{
+	float: left;
+	width: 50%;
+	clear: right;
+	letter-spacing: 1px;
+}
+.photobooth {
+	float: left;
+	margin: 10px;
+	width: 30%;
+}
+article{
+	clear: both;
+	margin: 200px 10px 200px 10px;
+}
+.brunch ~ p{
+	float: left;
+	width: 50%;
+	clear: right;
+	letter-spacing: 1px;
+}
+.brunch {
+	float: left;
+	margin: 10px;
+	width: 30%;
+}
+h2{
+	text-align: center;
+}
