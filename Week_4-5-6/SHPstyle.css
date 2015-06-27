@@ -8,11 +8,11 @@ a {
  	color:#000; /* This is black. */ 
  	text-decoration: none;
  }
-
-img {
- 	height: 250px;
- 	width: 400px;
- }
+h1 {
+    text-align: center;
+    color: #348164;
+    font-size: 65px;
+}
 p {
 	color: #000; /* This is black. */ 
 	font-size:16px;
@@ -24,7 +24,7 @@ li{
 	float: left; 
 	height: 250px;
 	width: 30%;
-	margin-bottom: 20px;
+    margin: 5px;
 }
 li:last-child{
 	clear: right;
@@ -34,7 +34,7 @@ img{
 	width: 300px;
 	border: 1px solid black;
 }
-.Wordmark{
+.wordmark{
 	height: 250px;
 	width: 500px;
 	margin: 0 auto;
@@ -59,21 +59,24 @@ footer{
 	width: 30%;
 	text-align: center;
 }
+address{
+    font-style: normal;
+}
 nav{
 	text-align: center;
 	margin-top: 40px;
 	margin-bottom: 40px;
 }
 nav a{
-	margin: 40px 200px;
+	margin: 40px 20px;
 }
-.photobooth ~ p{
+.blog-images ~ p{
 	float: left;
 	width: 50%;
 	clear: right;
 	letter-spacing: 1px;
 }
-.photobooth {
+.blog-images {
 	float: left;
 	margin: 10px;
 	width: 30%;
@@ -82,18 +85,45 @@ article{
 	clear: both;
 	margin-bottom: 275px;
 }
-.brunch ~ p{
-	float: left;
-	width: 50%;
-	clear: right;
-	letter-spacing: 1px;
-}
-.brunch {
-	float: left;
-	margin: 10px;
-	width: 30%;
-}
 h2{
 	text-align: center;
 	margin-top: 0;
+}
+.image-1 {
+    background: url(ImagesSHP/bacon.jpg) center;
+    background-size: cover;
+}
+.image-2 {
+    background: url(ImagesSHP/brunch.jpg) center;
+    background-size: cover;
+}
+.image-3 {
+    background: url(ImagesSHP/chai.jpg) center;
+    background-size: cover;
+}
+.image-4 {
+    background: url(ImagesSHP/cocoa.jpg) center;
+    background-size: cover;
+}
+.image-5 {
+    background: url(ImagesSHP/cupcakes.jpg) center;
+    background-size: 134%;
+}
+.image-6 {
+    background: url(ImagesSHP/nuts.jpg) center;
+    background-size: 133%;
+}
+.image-7 {
+    background: url(ImagesSHP/photobooth.jpg) center;
+    background-size: 133% 210%;
+    background-position: 48% 100%;
+}
+.image-8 {
+    background: url(ImagesSHP/pinecones.jpg) center;
+    background-size: 133%;
+}
+.image-9 {
+    background: url(ImagesSHP/yarn.jpg) center;
+    background-size: 133%;
+    background-position: 0% 74%;
 }
