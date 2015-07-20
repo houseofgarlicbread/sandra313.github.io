@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"/>   -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"/>   
 	<link rel="stylesheet" href="Week_1\style.css"/>
 	<title>Patterns and Lines, Inc.</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,21 +18,22 @@
         </div>
         <div class="logo-container">
             <div class="header-1">
-                <img src="Week_3/FlowerLogo1.jpg" alt="flower logo" title="This is my logo!">
+                <img src="Week_3/FlowerLogo1.jpg" class="mylogo" alt="flower logo" title="This is my logo!">
             </div>
             <div class="header-2">
                 <a href="Sign In">Sign In</a>
                 <a href="Shopping Cart">Shopping Cart</a>
-               <input type="text">
+<!--               <input type="text">-->
             </div>
         </div>
     </header>
-        <section class="intro">
+        <section class="intro container">
         <h1>Patterns and Lines, Inc.</h1>
         <p id="slogan">It's Sort of Spectacular</p>
         <p>A design rookie's attempt at pattern making for everyday objects. Hope this turns out kind of photogenic, if not, apply a filter.</p>
        <nav>
-           <ul class="navigation">
+           <div id="gradient"></div>
+              <ul class="navigation">
                <li>Shop Patterns</li>
                <li>New Arrivals</li>
                <li>About Us</li>
@@ -40,22 +41,57 @@
            </ul>
        </nav>
         </section>
-		<section class="grid">
-		        <img src="../Week_8/elephantegyptgreek.png" title="elephant egypt greek" alt="elephant egypt greek">
-		        <img src="../Week_8/oysteraztec.png" title="oyster aztec" alt="oyster aztec">
-		        <img src="../Week_8/flowerturnedxoxo.png" title="xoxo" alt="xoxo">
-		        <img src="../Week_8/foliageturnedpatternmin.png" title="pattern min" alt="pattern min">
-		        <img src="../Week_8/elephantflowers.png" title="elephant flowers" alt="elephant flowers">
-		        <img src="../Week_8/flowerturnedgrassleaves.png" title="grass leaves"  alt="grass leaves">
-		        <img src="../Week_8/cascadingfoliage.png" title="cascading foliage" alt="cascading foliage">
-		        <img src="../Week_8/scorpionflower.png" title="scorpion flower" alt="scorpion flower">
-		</section>
-		<footer class="contact-me">
+     <div class="row">
+        <div class="col-xs-6 col-sm-3 col-md-3">
+            <a href="#" class="thumbnail">
+                <img src="../Week_8/elephantegyptgreek.png" title="elephant egypt greek" alt="elephant egypt greek">
+            </a>
+        </div>
+        <div class="col-xs-6 col-sm-3 col-md-3">
+            <a href="#" class="thumbnail">
+                <img src="../Week_8/oysteraztec.png" title="oyster aztec" alt="oyster aztec">
+            </a>
+        </div>
+        <div class="col-xs-6 col-sm-3 col-md-3">
+            <a href="#" class="thumbnail">
+                <img src="../Week_8/scorpionflower.png" title="scorpion flower" alt="scorpion flower">
+            </a>
+        </div>
+        <div class="col-xs-6 col-sm-3 col-md-3">
+            <a href="#" class="thumbnail">
+                <img src="../Week_8/foliageturnedpatternmin.png" title="pattern min" alt="pattern min">
+            </a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-6 col-sm-3 col-md-3">
+            <a href="#" class="thumbnail">
+                <img src="../Week_8/elephantflowers.png" title="elephant flowers" alt="elephant flowers">
+            </a>
+        </div>
+        <div class="col-xs-6 col-sm-3 col-md-3">
+            <a href="#" class="thumbnail">
+                <img src="../Week_8/flowerturnedgrassleaves.png" title="grass leaves"  alt="grass leaves">
+            </a>
+        </div>
+        <div class="col-xs-6 col-sm-3 col-md-3">
+            <a href="#" class="thumbnail">
+                 <img src="../Week_8/cascadingfoliage.png" title="cascading foliage" alt="cascading foliage">
+            </a>
+      </div>
+        <div class="col-xs-6 col-sm-3 col-md-3">
+            <a href="#" class="thumbnail">
+                 <img src="../Week_8/flowerturnedxoxo.png" title="xoxo" alt="xoxo">
+            </a>
+        </div>
+    </div>     
+		<footer class="contact-me container">
 				<p> Contact Me: </p>
 				<ul>
 					<li> <a href="mailto:creationsbysandy.com"> creationsbysandy.com</a></li>
 					<li> <a href="tel:(333)333-3333"> (333) 333-3333</a></li> 
                 </ul>		
 		</footer>
+		<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
